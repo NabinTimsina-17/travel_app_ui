@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:travel_app_ui/model.dart';
 import 'package:travel_app_ui/more_detail.dart';
 import 'package:travel_app_ui/popular_cate.dart';
-
-
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
@@ -79,14 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               ),
                             ),
                             const SizedBox(height: 20),
-                            const Text(
-                              "Discover",
-                              style: TextStyle(
-                                fontSize: 30,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                            const SizedBox(height: 10),
+
                             const Text(
                               "Discover",
                               style: TextStyle(

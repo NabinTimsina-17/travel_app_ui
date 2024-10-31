@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:travel_app_ui/myhome_page.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
